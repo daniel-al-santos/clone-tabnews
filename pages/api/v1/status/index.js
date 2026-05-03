@@ -1,4 +1,6 @@
-import database from "../../../../infra/database.js"
+import database from "/infra/database.js"// caminho absoluto de importação
+//import database from "/infra/database.js"// caminho relativo de importação
+
 
 async function status(request, response) {
 
